@@ -29,34 +29,50 @@ nav {
     width: 100%;
     margin-top: 60px;
 }
-ul,li {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-li > a {
-    color: #666;
-    padding: 10px 20px 10px 20px;
-    margin-left: 20px;
-    line-height: 40px;
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: padding-right 1s;
-}
-li > a:hover {
-    color: white;
-    background-color: #4FC7C2;
-    border-radius: 10px 10px;
-    padding-right: 100%;
-    transition-timing-function: ease-in-out;
-  }
-}
+    ul,li {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    li > a {
+        color: #666;
+        padding: 10px 20px 10px 20px;
+        margin-left: 20px;
+        line-height: 40px;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: padding-right 1s;
+    }
+    li > a:hover {
+        color: white;
+        background-color: #4FC7C2;
+        border-radius: 10px 10px;
+        padding-right: 100%;
+        transition-timing-function: ease-in-out;
+    }
 
 /* Social logos */
 footer {
-
+    display: inline-block;
+    margin-top: 100%;
+    margin-left: 40px;
 }
+    /* float or display: inline-block? */
+    footer > a > i {
+        float: left;
+        padding: 8px;
+    }
+    footer > a {
+        float: left;
+        text-decoration: none;
+        color: black;
+    }
+    footer > a:hover {
+        color: #34A8BC;
+        background-color: #6ebdc709;
+    }
+
 /* Middle, main page */
 #mid {
     display: inline-block;
@@ -76,7 +92,6 @@ main {
     main > div {
         margin: 0 204px;
         display: inline-block;
-
     }
     main > div > img {
         display: inline-block;
@@ -106,10 +121,10 @@ main > a {
     padding-right: 1em;
     line-height: 33px;
 }
-main > a:hover {
-    background-color: #6EC7CF;
-    border-radius: 12px;
-}
+    main > a:hover {
+        background-color: #6EC7CF;
+        border-radius: 12px;
+    }
 
 h4 {
     display: inline-block;
@@ -127,7 +142,6 @@ p {
     /* jei padarau inline block - issiplecia main
     display: inline-block; */
     margin: 0;
-
 }
 
 
