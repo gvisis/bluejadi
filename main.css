@@ -18,10 +18,41 @@ body {
     width: 250px;
     height: 600px;
 }
-    nav > a  {
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+img#logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 100px
+
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+}
+ul,li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li > a {
+    color: #666;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: padding-right 1s;
+}
+li > a:hover {
+    color: white;
+    background-color: #4FC7C2;
+    border-radius: 10px 10px;
+    padding-right: 100%;
+    transition-timing-function: ease-in-out;
+  }
+}
+
 /* Social logos */
 footer {
 
