@@ -60,9 +60,6 @@ footer {
     margin-left: 40px;
 }
     /* float or display: inline-block? */
-    footer > a > i {
-        float: left;
-    }
     footer > a {
         padding: 8px;
         background-color: white;
